@@ -1,0 +1,38 @@
+﻿生成启动时间为 2017/5/12 星期五 12:01:28。
+     1>项目“E:\CHENGXU-VS\ConsoleApplication0502\ConsoleApplication0502\ConsoleApplication0502.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\ConsoleApplication0502.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         G:\visual studio\VS2012-20170317\VC\bin\CL.exe /c /I"G:\visualleakdetector\Visual Leak Detector\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Carc.cpp Cexception.cpp Cfichier.cpp Cgraphe.cpp CGrapheOperation.cpp Csommet.cpp CSommetOperation.cpp main.cpp
+         Carc.cpp
+         Cexception.cpp
+         Cfichier.cpp
+     1>Cfichier.cpp(200): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>Cfichier.cpp(224): warning C4172: 返回局部变量或临时变量的地址
+     1>Cfichier.cpp(281): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+         Cgraphe.cpp
+         CGrapheOperation.cpp
+         Csommet.cpp
+         CSommetOperation.cpp
+         main.cpp
+       Link:
+         G:\visual studio\VS2012-20170317\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\CHENGXU-VS\ConsoleApplication0502\Release\ConsoleApplication0502.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"G:\visualleakdetector\Visual Leak Detector\lib\Win32" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\CHENGXU-VS\ConsoleApplication0502\Release\ConsoleApplication0502.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\CHENGXU-VS\ConsoleApplication0502\Release\ConsoleApplication0502.lib" /MACHINE:X86 /SAFESEH Release\Carc.obj
+         Release\Cexception.obj
+         Release\Cfichier.obj
+         Release\Cgraphe.obj
+         Release\CGrapheOperation.obj
+         Release\Csommet.obj
+         Release\CSommetOperation.obj
+         Release\main.obj
+         正在生成代码
+     1>e:\chengxu-vs\consoleapplication0502\consoleapplication0502\cfichier.cpp(147): warning C4715: “CFichier::FICDeterminerFichierType”: 不是所有的控件路径都返回值
+         已完成代码的生成
+         ConsoleApplication0502.vcxproj -> E:\CHENGXU-VS\ConsoleApplication0502\Release\ConsoleApplication0502.exe
+       FinalizeBuildStatus:
+         正在删除文件“Release\ConsoleApplication0502.unsuccessfulbuild”。
+         正在对“Release\ConsoleApplication0502.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“E:\CHENGXU-VS\ConsoleApplication0502\ConsoleApplication0502\ConsoleApplication0502.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:05.17
